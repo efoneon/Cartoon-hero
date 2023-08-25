@@ -5,6 +5,8 @@ body {
   line-height: 30px;
 }
 
+/* header styles */
+
 header {
   background-color: #7EBEDC;
   text-align: center;
@@ -44,6 +46,7 @@ h2 {
 
 a {
   color: #3A5820;
+  transition: all .25s;
 }
 
 a:hover {

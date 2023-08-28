@@ -1,6 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
 }
@@ -8,13 +9,14 @@ body {
 /* header styles */
 
 header {
-  background-color: #7EBEDC;
+  background-color: #7ebedc;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: 'Press Start 2P', cursive;
 }
 header h1 {
@@ -25,7 +27,7 @@ header h1 {
 header img {
   border-radius: 170px;
   width: 350px;
-  border: 20px solid #80FF00;
+  border: 20px solid #80ff00;
 }
 
 main {
@@ -36,26 +38,27 @@ main {
 
 main img {
   max-width: 100%;
+  border-radius: 50px;
 }
 
 h2 {
   font-size: 30px;
-  color: #C7BB00;
+  color: #c7bb00;
   margin: 40px 0 10px;
 }
 
 a {
-  color: #3A5820;
-  transition: all .5s;
+  color: #3a5820;
+  transition: all 0.5s;
 }
 
 a:hover {
   background-color: black;
-  color: #7EBEDC;
+  color: #7ebedc;
 }
 
 footer {
-  background-color: #7EBEDC;
+  background-color: #7ebedc;
   text-align: center;
   padding: 50px;
 }
@@ -68,4 +71,8 @@ p.caption {
   color: #999999;
   font-style: italic;
   margin-top: 0;
+}
+
+header {
+  border-bottom: solid 30px black;
 }

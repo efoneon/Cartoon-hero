@@ -58,13 +58,20 @@ a:hover {
 }
 
 footer {
-  background-color: #7ebedc;
+  background-color: black;
+  color: white;
   text-align: center;
   padding: 50px;
 }
 
 footer p {
   margin: 30;
+}
+
+footer div {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
 p.caption {
